@@ -1,0 +1,126 @@
+ /* file name: Portfoliochris
+ Name: Duruh Christian 
+ 301369076
+ 29/01/2025*/
+
+ @media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+p{
+  
+  font-family:   Verdana, Geneva, Tahoma, sans-serif ;
+  font-size: 17px;
+}
+body{
+  background-color: #eef5ef;
+  color:  #18373d;
+}
+a{
+  text-decoration: none;
+  
+}
+a :hover{
+  color: wheat;
+}
+/*NAVBAR SECTION*/
+.nav{
+  background-color: #748d92;
+  color: white;
+  display: inline-flex;
+  justify-content: space-between;
+  height: 65px;
+  align-items: center;
+  gap:  0rem;
+  padding: 0 ;
+  position: sticky;
+  top: 0; 
+  width: 100%; font-size: 16px;
+}
+.title{
+  margin-right: 500px;
+}
+.nav a :hover{
+  color: rgba(230, 239, 239, 0.854);
+}
+.nav a{
+  color: rgb(9, 8, 8);
+  list-style-type: none; 
+}
+.nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin-right: 30px;
+  display: flex;
+  gap: 1rem; 
+}
+
+.contactinfo{
+  display: flex;
+}
+
+
+                              /* FOOTER SECTION*/
+.FooterDiv{
+  background-color: #434f57;
+  display: inline-flex;
+  width: 1290px;
+  color: rgb(219, 217, 217);
+  font-size: 16px;
+}
+.FooterDiv a{
+  color: rgb(232, 218, 218) ;
+}
+.FooterDiv li {
+  list-style-type: none;
+  color: white;
+}
+.lsdiv li{
+  list-style-type: none;
+  
+}
+.FooterDiv  li:hover{
+  color: black;
+}
+.fdiv{
+  margin-left:99px ;
+}
+.middiv{
+  margin-left:99px ;
+}
+.picdiv{
+  display: flex;
+ margin-left: 190px;
+}
+                                    /*PROJECT SECTION */
+.Projectdiv{
+  display: flex;
+ 
+}
+.div1project{
+  margin-right: 30px;
+  color: rgb(43, 43, 16);
+  border: 1px solid rgb(178, 167, 167);
+  box-shadow: 5px 5px 10px rgb(44, 37, 37);
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+
+}
+
+                                                  /*ABOUT DIV*/
+.aboutdiv{
+  display: flex;
+  height: 400px;
+  width: 1200px;
+}
+.Aboutdiv3{
+  margin-left: 45px;
+}
+.Aboutdiv2{
+  margin-left: 45px;
+}
